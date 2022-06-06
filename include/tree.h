@@ -25,7 +25,7 @@ class Tree {
         for (size_t i = 0; i < vrema.size(); i++)
             root->listik.push_back(new Node());
         for (size_t i = 0; i < root->listik.size(); i++)
-            root->listik[i]->value = vrema[i];
+            root->listik[i]->zhach = vrema[i];
         for (size_t i = 0; i < root->listik.size(); i++)
             rootConstr(root->listik[i], vrema);
     }
